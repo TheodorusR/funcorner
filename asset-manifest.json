@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/funcorner/static/css/main.8391ed9e.chunk.css",
-    "main.js": "/funcorner/static/js/main.82788b69.chunk.js",
-    "main.js.map": "/funcorner/static/js/main.82788b69.chunk.js.map",
+    "main.js": "/funcorner/static/js/main.b7905015.chunk.js",
+    "main.js.map": "/funcorner/static/js/main.b7905015.chunk.js.map",
     "runtime-main.js": "/funcorner/static/js/runtime-main.25ba4cbb.js",
     "runtime-main.js.map": "/funcorner/static/js/runtime-main.25ba4cbb.js.map",
-    "static/js/2.b0643f4c.chunk.js": "/funcorner/static/js/2.b0643f4c.chunk.js",
-    "static/js/2.b0643f4c.chunk.js.map": "/funcorner/static/js/2.b0643f4c.chunk.js.map",
+    "static/js/2.af6ad9f1.chunk.js": "/funcorner/static/js/2.af6ad9f1.chunk.js",
+    "static/js/2.af6ad9f1.chunk.js.map": "/funcorner/static/js/2.af6ad9f1.chunk.js.map",
     "index.html": "/funcorner/index.html",
     "static/css/main.8391ed9e.chunk.css.map": "/funcorner/static/css/main.8391ed9e.chunk.css.map",
-    "static/js/2.b0643f4c.chunk.js.LICENSE.txt": "/funcorner/static/js/2.b0643f4c.chunk.js.LICENSE.txt",
+    "static/js/2.af6ad9f1.chunk.js.LICENSE.txt": "/funcorner/static/js/2.af6ad9f1.chunk.js.LICENSE.txt",
     "static/media/babyMeme.748b7293.jpg": "/funcorner/static/media/babyMeme.748b7293.jpg",
     "static/media/catCryingMeme.e8aad939.jpg": "/funcorner/static/media/catCryingMeme.e8aad939.jpg",
     "static/media/dryFiring.52553e7e.mp3": "/funcorner/static/media/dryFiring.52553e7e.mp3",
@@ -24,8 +24,8 @@
   },
   "entrypoints": [
     "static/js/runtime-main.25ba4cbb.js",
-    "static/js/2.b0643f4c.chunk.js",
+    "static/js/2.af6ad9f1.chunk.js",
     "static/css/main.8391ed9e.chunk.css",
-    "static/js/main.82788b69.chunk.js"
+    "static/js/main.b7905015.chunk.js"
   ]
 }
