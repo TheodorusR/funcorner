@@ -1,38 +1,277 @@
-.App {
-  text-align: center;
-}
+@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Happy+Monkey&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@600&display=swap');
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+*  {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
   color: white;
 }
 
-.App-link {
-  color: #61dafb;
+h1 {
+  margin: 10px;
+  font-size: 1.4rem;
+  font-family: 'Orbitron', sans-serif;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
+.header p {
+  font-size: 0.7rem;
+}
+
+ /* Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) {
+  h1 {
+    font-size: 1.7rem;
   }
-  to {
-    transform: rotate(360deg);
+}
+
+ /* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) {
+  h1 {
+    font-size: 2.3rem;
+  }
+}
+
+ /* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) {
+  h1 {
+    font-size: 3rem;
+  }
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+/* style for pixelator */
+.grid-wrapper {
+  display: flex;
+  width: 90%;
+  margin: 0 auto 50px;
+  flex-direction: column;
+  align-items: center;
+}
+
+.grid-wrapper label {
+  font-size: 0.7rem;
+}
+
+.grid-wrapper small {
+  font-size: 0.6rem;
+}
+
+@media (max-width: 576px) {
+  .grid-wrapper label img {
+    width: 140px;
+    height: 20px;
+  }
+  .grid-wrapper input {
+    width: 200px;
+    height: 25px;
+    font-size: 0.7rem;
+  }
+}
+
+.grid-container {
+  width: 100%;
+  height: auto;
+  display: grid;
+  grid-template-columns: repeat(43, 1fr);
+  grid-template-rows: repeat(7, 1fr);
+  box-shadow: 3px 3px 4px 1px #515151;
+  margin: 1rem auto;
+}
+
+.grid-pixel {
+  padding-top: 100%;
+  border: 1px solid green;
+  background-color: '#4a6274';
+}
+
+.background-img {
+  position: fixed;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  z-index: -1;
+  object-fit: cover;
+}
+
+/* style for shooting range */
+.shooting-wrapper {
+  display: flex;
+  width: 90%;
+  margin: 20px;
+  flex-direction: column;
+  align-items: center;
+  font-family: 'Press Start 2P', cursive;
+  text-align: center;
+}
+
+.shooting-wrapper p {
+  font-size: 0.7rem;
+}
+
+.shooting-container {
+  position: relative;
+  overflow: hidden;
+  border: 3px solid white;
+  cursor: url("img/scope.png") 16 16, auto;
+}
+
+.shooting-container img {
+  width: 100%;
+  object-fit: cover;
+  z-index: -1;
+  user-select: none;
+}
+
+.vertical-pole {
+  position: absolute;
+  background: linear-gradient(to right, black, grey);
+  top: 10%;
+  left: 50%;
+  width: 2%;
+  height: 100%;
+}
+
+.pole-branch {
+  position: absolute;
+  background: linear-gradient(to bottom, black, grey);
+  left: 52%;
+  width: 10%;
+  height: 2%;
+  transform-origin: -10% 0;
+}
+
+.top {
+  top: 20%;
+}
+
+.middle {
+  top: 50%;
+}
+
+.bottom {
+  top: 80%;
+}
+
+.target-face {
+  position: absolute;
+  background-color: white;
+  border-radius: 50%;
+  top: -440%;
+  left: 50%;
+  width: 140%;
+  padding-top: 140%;
+  box-shadow: 2px 1px 1px #888888;
+}
+
+.target-face::after {
+  content: '';
+  position: absolute;
+  background-color: white;
+  border-radius: 50%;
+  top: 40%;
+  left: 40%;
+  width: 20%;
+  padding-top: 20%;
+
+}
+
+.target-face::before {
+  content: '';
+  position: absolute;
+  background-color: black;
+  border-radius: 50%;
+  top: 20%;
+  left: 20%;
+  width: 60%;
+  padding-top: 60%;
+}
+
+.rounds-container {
+  position: absolute;
+  width: 10%;
+  bottom: 0;
+  right: 0;
+}
+
+.reload {
+  position: absolute;
+  font-size: 0.6rem;
+  bottom: 0;
+  left: -45px;
+}
+
+@media (max-width: 576px) {
+  .reload {
+    font-size: 0.4rem;
+    left: -35px;
+  }
+}
+
+.score {
+  position: absolute;
+  font-size: 1rem;
+  top: 0;
+  left: 0;
+}
+
+/* style for musicPlayer */
+.music-container { 
+  position: fixed;
+  z-index: 10;
+  bottom: 2%;
+  right: 2%;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+}
+
+.spotify-container {
+  overflow: hidden;
+  border-radius: 8px;
+  background-color: black;
+  margin: 5px auto;
+  box-shadow: 2px 2px 8px 1px black;
+}
+
+/* style for MemeGallery */
+.gallery-container {
+  width: 90%;
+  height: 60%;
+  margin: 30px auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-family: 'Happy Monkey', cursive;
+  text-align: center;
+  font-weight: bold;
+}
+
+.meme-container {
+  width: 300px;
+  height: 300px;
+  margin: 0 50px 40px;
+  overflow: auto;
+}
+
+.meme-container img {
+  display: block;
+  max-width: 100%;
+  max-height: 100%;
+  user-select: none;
+  margin: auto;
+}
+
+@media (max-width: 400px) {
+  .meme-container {
+    max-width: 200px;
+    max-height: 200px;
   }
 }

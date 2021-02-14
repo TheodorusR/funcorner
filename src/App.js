@@ -1,23 +1,20 @@
-import logo from './logo.svg';
+import Header from './components/ui/Header';
+import Background from './components/ui/Background';
+import Pixelator from './components/pixelator/Pixelator';
 import './App.css';
+import ShootingRange from './components/shooting/ShootingRange';
+import MusicPlayer from './components/musicPlayer/MusicPlayer';
+import MemeGallery from './components/memeGallery/MemeGallery';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div className="container container-fluid">
+      <Background />
+      <Header />
+      <Pixelator />
+      <ShootingRange />
+      <MusicPlayer />
+      <MemeGallery />
     </div>
   );
 }
