@@ -11,7 +11,7 @@ Try typing some words, you can start with "have a nice day".
 Look no more and shoot some targets on my arena!
 
 **Or are you looking for some humor?**  
-Feast your eyes with some memes here! (warning: cringe, even more cringe if you never code..)
+Feast your eyes with some memes here! (warning: cringe..)
 
 **A music person? Me too!**  
 Fun Corner got you covered, ready to satisfy you :) just hit the toggle and vibe!
