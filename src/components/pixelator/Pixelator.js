@@ -24,7 +24,6 @@ const GridContainer = () => {
     
     return () => {
       clearInterval(timer);
-      console.log(text);
     }
     
   },[text])
