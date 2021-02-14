@@ -1,0 +1,31 @@
+{
+  "files": {
+    "main.css": "/funcorner/static/css/main.8391ed9e.chunk.css",
+    "main.js": "/funcorner/static/js/main.82788b69.chunk.js",
+    "main.js.map": "/funcorner/static/js/main.82788b69.chunk.js.map",
+    "runtime-main.js": "/funcorner/static/js/runtime-main.25ba4cbb.js",
+    "runtime-main.js.map": "/funcorner/static/js/runtime-main.25ba4cbb.js.map",
+    "static/js/2.b0643f4c.chunk.js": "/funcorner/static/js/2.b0643f4c.chunk.js",
+    "static/js/2.b0643f4c.chunk.js.map": "/funcorner/static/js/2.b0643f4c.chunk.js.map",
+    "index.html": "/funcorner/index.html",
+    "static/css/main.8391ed9e.chunk.css.map": "/funcorner/static/css/main.8391ed9e.chunk.css.map",
+    "static/js/2.b0643f4c.chunk.js.LICENSE.txt": "/funcorner/static/js/2.b0643f4c.chunk.js.LICENSE.txt",
+    "static/media/babyMeme.748b7293.jpg": "/funcorner/static/media/babyMeme.748b7293.jpg",
+    "static/media/catCryingMeme.e8aad939.jpg": "/funcorner/static/media/catCryingMeme.e8aad939.jpg",
+    "static/media/dryFiring.52553e7e.mp3": "/funcorner/static/media/dryFiring.52553e7e.mp3",
+    "static/media/gunShot.470a479f.mp3": "/funcorner/static/media/gunShot.470a479f.mp3",
+    "static/media/internMeme.a0f23330.jpg": "/funcorner/static/media/internMeme.a0f23330.jpg",
+    "static/media/pixelator.404dae5e.png": "/funcorner/static/media/pixelator.404dae5e.png",
+    "static/media/qaEngineerMeme.823f4373.jpg": "/funcorner/static/media/qaEngineerMeme.823f4373.jpg",
+    "static/media/reload.f8be4ef9.mp3": "/funcorner/static/media/reload.f8be4ef9.mp3",
+    "static/media/round.23cd0827.png": "/funcorner/static/media/round.23cd0827.png",
+    "static/media/shootingBackground.2728ec4e.jpg": "/funcorner/static/media/shootingBackground.2728ec4e.jpg",
+    "static/media/stars.61434a9a.gif": "/funcorner/static/media/stars.61434a9a.gif"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.25ba4cbb.js",
+    "static/js/2.b0643f4c.chunk.js",
+    "static/css/main.8391ed9e.chunk.css",
+    "static/js/main.82788b69.chunk.js"
+  ]
+}
