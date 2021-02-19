@@ -16,3 +16,4 @@ Feast your eyes with some memes here! (warning: cringe..)
 **A music person? Me too!**  
 Fun Corner got you covered, ready to satisfy you :) just hit the toggle and vibe!
 
+Libraries/techs used: React, Reactstrap, Framer-motion.
